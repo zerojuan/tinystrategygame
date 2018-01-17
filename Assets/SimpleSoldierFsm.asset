@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f945e777233a59f4aba40aeca29093a6, type: 3}
+  m_Name: SimpleSoldierFsm
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.64,"type":"NodeCanvas.StateMachines.FSM","translation":{"x":-4222.0,"y":-4473.0},"zoomFactor":0.8441253,"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"animationClip":{"_value":1},"$type":"NodeCanvas.Tasks.Actions.PlayAnimationSimple"}]},"_position":{"x":5078.0,"y":5407.0},"_name":"Idle","$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"animationClip":{"_value":2},"$type":"NodeCanvas.Tasks.Actions.PlayAnimationSimple"}]},"_position":{"x":5337.0,"y":5479.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"7"}],"connections":[{"_condition":{"valueA":{"_name":"GameObject_BB/selected","_targetVariableID":"955db127-6a80-4f9f-9516-b898f8fca577"},"valueB":{"_name":"me","_targetVariableID":"1628a6b9-6c5a-487d-b43e-c91bd0cf701a"},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[UnityEngine.GameObject,
+    UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"GameObject_BB/selected","_targetVariableID":"955db127-6a80-4f9f-9516-b898f8fca577"},"valueB":{"_name":"me","_targetVariableID":"1628a6b9-6c5a-487d-b43e-c91bd0cf701a"},"_invert":true,"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[UnityEngine.GameObject,
+    UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 4bea189f5a8e647f08c31194e4939463, type: 3}
+  - {fileID: 7400000, guid: 9d050ebeea5fa46adaf512596eda0e60, type: 3}
+  _deserializationFailed: 0
