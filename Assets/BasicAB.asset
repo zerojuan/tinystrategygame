@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: BasicAB
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.64,"type":"NodeCanvas.BehaviourTrees.BehaviourTree","translation":{"x":-4295.085,"y":-4045.503},"zoomFactor":0.8887199,"nodes":[{"repeaterMode":"RepeatForever","repeatTimes":{"_value":5},"_position":{"x":4997.645,"y":4708.436},"$type":"NodeCanvas.BehaviourTrees.Repeater","$id":"2"},{"_nodeColor":{"r":0.7490196,"g":0.4980392,"b":1.0,"a":1.0},"_position":{"x":4994.645,"y":4803.436},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"4"},{"_action":{"target":{"_value":1},"speed":{"_value":4.0},"keepDistance":5.0,"$type":"NodeCanvas.Tasks.Actions.MoveToGameObject"},"_position":{"x":4811.645,"y":4901.345},"_tag":"","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"5"},{"_action":{"valueA":{"_name":"GameManager_BB/trips","_targetVariableID":"6607bfb7-2910-445e-b208-d59bd6499081"},"Operation":"Add","valueB":{"_value":1},"$type":"NodeCanvas.Tasks.Actions.SetInt"},"_position":{"x":4946.645,"y":4916.436},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"9"},{"_action":{"target":{"_value":2},"speed":{"_value":4.0},"keepDistance":5.0,"$type":"NodeCanvas.Tasks.Actions.MoveToGameObject"},"_position":{"x":5153.645,"y":4901.436},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"13"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _deserializationFailed: 0
+  repeat: 1
+  updateInterval: 0
